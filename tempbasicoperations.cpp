@@ -21,10 +21,6 @@ public:
         cout << "Subtraction is: " << subtract() << endl;
         cout << "Product is: " << multiply() << endl;
 
-        if (num2 != 0)
-            cout << "Division is: " << divide() << endl;
-        else
-            cout << "Division by zero is not allowed." << endl;
     }
 
     T add() { return num1 + num2; }
